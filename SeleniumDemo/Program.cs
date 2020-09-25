@@ -31,6 +31,7 @@ namespace SeleniumTest
             element.SendKeys("executeautomation");
             Thread.Sleep(3000);
             ((ITakesScreenshot)driver).GetScreenshot().SaveAsFile("oldChrome.png");
+            Thread.Sleep(3000);
             driver.Quit();
 
 
